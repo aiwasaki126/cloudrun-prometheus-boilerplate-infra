@@ -1,0 +1,6 @@
+oauth2_client_id            = <IAP oauth client id>
+oauth2_client_secret        = <IAP oauth client secret>
+user_email                  = <Gmail address of user who access prometheus UI>
+prometheus_remote_write_url = <REMOTE WRITE URL>
+prometheus_remote_username  = <REMOTE USERNAME>
+prometheus_remote_password  = <REMOTE PASSWORD>
