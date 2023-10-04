@@ -10,6 +10,11 @@ locals {
     env = "dev"
   }
 
+  dns = {
+    top_domain   = "<YOUR DOMAIN>" # ex. example.com
+    service_name = "main"
+  }
+
   activate_apis = [
     "cloudapis.googleapis.com",
     "cloudbuild.googleapis.com",
@@ -23,11 +28,6 @@ locals {
     "storage.googleapis.com",
     "cloudresourcemanager.googleapis.com"
   ]
-
-  dns = {
-    top_domain   = "<YOUR DOMAIN>" # ex. example.com
-    service_name = "main"
-  }
 
   service_name_prometheus = "prometheus"
   prometheus = {
